@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(201, 198, 25);
+    margin-bottom: 30px;
+}
+h1{
+    margin-top: 5;
+    display: inline-block;
+    color: aliceblue;
+}
+
+
+
+div.contenedor{
+    width: 1400px;
+    margin: auto;
+
+}
+
+.movie{
+    width: 700px;
+    margin: 2rem;
+    border-radius:  3PX;
+    box-shadow: 0.2px 4px 5px rgb(0,0,0,0.1);
+    padding: 0.5rem 1rem 1rem;
+
+}
+
+.movie img{
+    width: 100%;
+}
+.actors-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem 1rem;
+}
+.actors-info span{
+    background-color: rgb(237, 237, 243);
+    padding: .25rem .5rem;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+    
+div.credits-info{
+    width:300px ;
+    height: 400px;
+    background-color: rgba(172, 167, 167, 0.721);
+    display: inline-block;
+    padding: 12px 5px 15px 10px;
+    
+}
+
+div{
+    margin-left: 20px;
+
+}
+
+
